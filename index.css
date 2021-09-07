@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     width: 1440px;
+    font-family: Barlow Semi Condensed, sans-serif;
     background: hsl(210, 46%, 95%);
     display: flex;
     justify-content: center;
