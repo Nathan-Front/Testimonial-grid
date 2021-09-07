@@ -3,6 +3,11 @@ body{
     padding: 0;
     width: 1440px;
     background: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 .main-container{
     margin: 0;
@@ -13,20 +18,20 @@ body{
     grid-gap: 3%;
     font-size: 13px;
 }
-.main-container>div{
+.main-container>article{
     margin: 0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
-.main-container>div>div>img{
+.main-container>article>div>img{
     margin: 0;
     padding: 0;
     border-radius: 50%;
     width: 35px;
     float: left;
 }
-.image-container>p{
+.image-container>h4{
     margin: 0;
     padding: 0 0 0 5%;
     display: flex;
@@ -35,10 +40,10 @@ body{
     line-height: 1.2em;
     font-weight: 500;
 }
-.image-container>p>span:nth-child(2){
+.image-container>h4>span:nth-child(2){
     opacity: 50%;
 }
-.image-container2>p{
+.image-container2>h4{
     margin: 0;
     padding: 0 0 0 13%;
     display: flex;
@@ -47,7 +52,7 @@ body{
     line-height: 1.2em;
     font-weight: 500;
 }
-.image-container2>p>span:nth-child(2){
+.image-container2>h4>span:nth-child(2){
     opacity: 50%;
 }
 .testimonial>p:nth-child(1){
@@ -102,7 +107,7 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:1000px){
     body{
         width: auto;
     }
