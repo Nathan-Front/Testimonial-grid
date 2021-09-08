@@ -32,7 +32,7 @@ body{
     width: 35px;
     float: left;
 }
-.image-container>h4{
+.image-container>h2{
     margin: 0;
     padding: 0 0 0 5%;
     display: flex;
@@ -41,10 +41,10 @@ body{
     line-height: 1.2em;
     font-weight: 500;
 }
-.image-container>h4>span:nth-child(2){
+.image-container>h2>span:nth-child(2){
     opacity: 50%;
 }
-.image-container2>h4{
+.image-container2>h2{
     margin: 0;
     padding: 0 0 0 13%;
     display: flex;
@@ -53,7 +53,7 @@ body{
     line-height: 1.2em;
     font-weight: 500;
 }
-.image-container2>h4>span:nth-child(2){
+.image-container2>h2>span:nth-child(2){
     opacity: 50%;
 }
 .testimonial>p:nth-child(1){
